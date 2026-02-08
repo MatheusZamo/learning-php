@@ -21,7 +21,7 @@
         echo "<p>O seu sucessor é $successor</p>"
         ?>
 
-        <button onclick="javacript:history.go('-1')">Voltar</button>
+        <button onclick="javacript:history.go('-1')">⬅ Voltar</button>
 
     </section>
 </body>
