@@ -11,15 +11,17 @@
 <body>
     <section>
         <h1>Resultado Final</h1>
-        <?php 
-        $response = $_GET['number'];
-        $predecessor = $response - 1;
-        $successor = $response + 1;
+        <p>
+            <?php 
+                $response = $_GET['number'];
+                $predecessor = $response - 1;
+                $successor = $response + 1;
 
-        echo "<p>O número escolhido foi <strong>$response</strong></p>";
-        echo "<p>O seu antecessor é $predecessor</p>";
-        echo "<p>O seu sucessor é $successor</p>"
-        ?>
+                echo "O número escolhido foi <strong>$response</strong>";
+                echo "</br>O seu antecessor é $predecessor";
+                echo "</br>O seu sucessor é $successor"
+            ?>
+        </p>
 
         <button onclick="javacript:history.go('-1')">⬅ Voltar</button>
 
