@@ -12,14 +12,14 @@
     <section>
         <h1>Trabalhando com Números Aleatórios</h1>
         <p>Gerando um número aleatório entre 0 e 100...</p>
+        <p>
+            <?php 
+                $randomNumber = mt_rand(0, 100);
 
-        <?php 
-        $randomNumber = random_int(0, 100);
+                echo "O número gerado foi $randomNumber";
 
-        echo "<p>O número gerado foi $randomNumber</p>";
-
-        ?>
-
+            ?>
+        </p>
         <button onclick="window.location.reload()">🔄 Gerar Outro</button>
 
     </section>
